@@ -15,6 +15,13 @@
             <span class="selected"></span>
         </a>
     </li>
+    <li class="nav-item <?= $side_bar == "/dashboard" ? "active open" : "" ?>" id="dashboard_sidebar">
+        <a data-href="../../flujo_actual_dashboard.html" href="/dashboard" class="nav-link nav-toggle cambio_pagina">
+            <i class="fa fa-pie-chart"></i>
+            <span class="title">HOME</span>
+            <span class="selected"></span>
+        </a>
+    </li>
     <li class="nav-item">
         <a data-href="../../ingresos_dashboard1.html" href="/ingresos" class="nav-link nav-toggle cambio_pagina">
             <i class="fa fa-thumbs-up" aria-hidden="true"></i>
